@@ -1,0 +1,30 @@
+body{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img{
+  width: 100px;
+  /* background-color: white; */
+
+}
+
+.imgBox{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-70%);
+}
+
+.arrowKeys, .spaceKey{
+  border-radius: 10px;
+  text-align: center;
+  -webkit-text-stroke: 2px yellow;
+  border: 10px solid black;
+  padding: 10px;
+}
+h1{
+  font-size: 40px;
+}

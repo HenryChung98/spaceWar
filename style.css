@@ -1,0 +1,42 @@
+html{
+  background-image: url("images/Pink Glow GIF by xponentialdesign - Find & Share on GIPHY.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+
+
+}
+
+
+.homeScreen{
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-70%);
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px 3px black;
+}
+
+h1{
+  -webkit-text-stroke: 2px yellow;
+  font-size: 100px;
+}
+#menuButton{
+  font-weight: bold;
+  font-size: 30px;
+  border: 0;
+  color: white;
+  background-color: transparent;
+  transition: .5s;
+}
+#menuButton:hover{
+  -webkit-text-stroke: 2px black;
+  color: yellow;
+
+}
+
+
+
