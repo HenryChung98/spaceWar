@@ -5,6 +5,16 @@ body{
   align-items: center;
 }
 
+.back{
+  position: absolute;
+  background-color: whitesmoke;
+  border-radius: 30px;
+  right: 95%;
+  top: 30px;
+  width: 50px;
+}
+
+
 img{
   width: 100px;
   /* background-color: white; */
